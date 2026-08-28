@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sage Law Firm | Advocate & Notary Public</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    background: #111827;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 45px 20px;
+}
+
+.hero {
+    text-align: center;
+    background: white;
+}
+
+.hero h2 {
+    color: #172554;
+    font-size: 32px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card h3 {
+    color: #172554;
+}
+
+.contact {
+    background: #e5e7eb;
+}
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>SAGE LAW FIRM</h1>
+    <p>Advocate & Notary Public</p>
+    <p>Professional Legal Services in Nepal</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>Trusted Legal Services</h2>
+    <p>
+        Professional and reliable legal assistance from
+        Bharatpur, Chitwan, serving clients throughout Nepal.
+    </p>
+</section>
+
+<section id="about">
+  <h2>About Sage Law Firm</h2>
+<p>
+    Sage Law Firm is a professional law firm based in Bharatpur,
+    Chitwan, Nepal. We provide reliable legal and notary services
+    with a strong commitment to integrity, confidentiality and
+    professional client service.<h2>Advocate Profile</h2>
+<p><strong>Saroj Kafle</strong></p>
+<p>Advocate & Notary Public</p>
+<p>M.A., LL.B., B.Ed.</p>
+<p>Providing professional legal services in Chitwan and throughout Nepal.</p>
+</p>
+</section>
+
+<section id="services">
+    <h2>Our Legal Services</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Family Law</h3>
+            <p>Legal assistance relating to family matters and disputes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Criminal Law</h3>
+            <p>Professional legal assistance in criminal matters.</p>
+        </div>
+
+        <div class="card">
+            <h3>Corporate Law</h3>
+            <p>Company, business and corporate legal services.</p>
+        </div>
+
+        <div class="card">
+            <h3>Contracts</h3>
+            <p>Drafting and review of agreements and contracts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Land & Property</h3>
+            <p>Land lease, house rent and property-related agreements.</p>
+        </div>
+
+        <div class="card">
+            <h3>Notary Public</h3>
+            <p>Professional notary public services.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Sage Law Firm</h2>
+<p><a href="https://wa.me/9779855011905" target="_blank">💬 Contact us on WhatsApp</a></p>
+    <p><strong>Phone:</strong> <a href="tel:9855011905">9855011905</a></p>
+   <p><strong>Email:</strong> <a href="mailto:kaphlesaroj25@gmail.com">kaphlesaroj25@gmail.com</a></p>
+    <p><strong>Location:</strong> Bharatpur Metropolitan City, Chitwan, Nepal</p>
+<p><a href="https://share.google/VrKBVzGdo554Nfyq0" target="_blank">📍 View Our Location on Google Maps</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Sage Law Firm. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
