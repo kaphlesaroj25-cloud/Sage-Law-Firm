@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html
- <button onclick="toggleLanguage()">नेपाली / English</button> 
+<html 
   lang="en">
 <head>
 
@@ -316,7 +315,7 @@ footer {
 
 <body>
  <div style="text-align:center; margin:15px;">
-  <button onclick="toggleLanguage()">नेपाली / English</button>
+  <button class="language-button" onclick="toggleLanguage()">नेपाली / English</button>
 </div>
 
 
@@ -330,10 +329,11 @@ class="logo"
 
 <h1>SAGE LAW FIRM</h1>
 
-<p><strong>Advocate &amp; Notary Public</strong></p>
+<p class="english"><strong>Advocate &amp; Notary Public</strong></p>
+<p class="nepali" style="display:none;"><strong>अधिवक्ता तथा नोटरी पब्लिक</strong></p>
 
-<p>Professional Legal Services in Bharatpur, Chitwan, Nepal</p>
-
+<p class="english">Professional Legal Services in Bharatpur, Chitwan, Nepal</p>
+<p class="nepali" style="display:none;">भरतपुर, चितवन, नेपालमा व्यावसायिक कानूनी सेवाहरू</p>
 </header>
 
 
@@ -345,7 +345,10 @@ class="logo"
 ```html
 <a href="#contact">Contact</a>
 
-<a href="./nepali/">नेपाली</a>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Legal Services</a>
+<a href="#contact">Contact</a>
 
 </nav>
 ```
