@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+ <button onclick="toggleLanguage()">नेपाली / English</button> 
+  lang="en">
 <head>
 
 <meta name="google-site-verification" content="vrdz7IjA2YDopAnplLZobt6VoS-ltQVpAELZ-GI-1vk">
@@ -612,6 +614,20 @@ Advocate &amp; Notary Public | Lawyer in Bharatpur, Chitwan, Nepal
 
 </footer>
 
+<script>
+function toggleLanguage() {
+  const nepali = document.querySelectorAll(".nepali");
+  const english = document.querySelectorAll(".english");
 
+  nepali.forEach(el => {
+    el.style.display = el.style.display === "none" ? "block" : "none";
+  });
+
+  english.forEach(el => {
+    el.style.display = el.style.display === "none" ? "block" : "none";
+  });
+}
+</script>
 </body>
+ 
 </html>
