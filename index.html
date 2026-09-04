@@ -9,9 +9,9 @@
 
 <title>Sage Law Firm | Lawyer & Advocate in Bharatpur, Chitwan | Saroj Kafle</title>
 
-<meta name="description" content="Sage Law Firm in Bharatpur, Chitwan, Nepal provides professional legal services including divorce, family law, court marriage, criminal law, ansha and property matters, company and firm registration, contracts, land and property services, and notary services by Advocate & Notary Public Saroj Kafle.">
+<meta name="description" content="Sage Law Firm in Bharatpur, Chitwan, Nepal provides professional legal services including divorce and family law, court marriage, criminal law, ansha and property matters, company and firm registration, contracts, land and property services, and notary services by Advocate & Notary Public Saroj Kafle.">
 
-<meta name="keywords" content="Sage Law Firm, lawyer Bharatpur, advocate Bharatpur, lawyer Chitwan, advocate Chitwan, divorce lawyer Bharatpur, divorce lawyer Chitwan, court marriage Bharatpur, court marriage Chitwan, family lawyer Bharatpur, criminal lawyer Chitwan, ansha lawyer Bharatpur, company registration Bharatpur, firm registration Chitwan, notary public Bharatpur, legal services Nepal">
+<meta name="keywords" content="Sage Law Firm, lawyer Bharatpur, advocate Bharatpur, lawyer Chitwan, advocate Chitwan, divorce lawyer Bharatpur, family lawyer Bharatpur, criminal lawyer Chitwan, court marriage Bharatpur, ansha lawyer Bharatpur, property lawyer Chitwan, company registration Bharatpur, firm registration Chitwan, notary public Bharatpur, legal services Nepal">
 
 <meta name="author" content="Saroj Kafle - Sage Law Firm">
 <meta name="robots" content="index, follow">
@@ -80,66 +80,80 @@ html {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fafc;
+    color: #1f2937;
     line-height: 1.7;
 }
 
+/* LANGUAGE BAR */
+
 .language-bar {
-    text-align: center;
-    background: #f5f5f5;
-    padding: 12px;
+    background: #f8fafc;
+    text-align: right;
+    padding: 10px 5%;
 }
 
 .language-button {
-    background: #172554;
-    color: white;
+    background: #d4af37;
+    color: #111827;
     border: none;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-size: 15px;
+    padding: 9px 18px;
+    border-radius: 5px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .language-button:hover {
-    opacity: 0.85;
+    background: #b8941f;
+    color: white;
 }
 
+/* HEADER */
+
 header {
-    background: #172554;
+    background: linear-gradient(135deg, #071a3d, #172554);
     color: white;
     text-align: center;
-    padding: 45px 20px;
+    padding: 45px 20px 55px;
+    border-bottom: 4px solid #d4af37;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 145px;
+    height: 145px;
     object-fit: contain;
     display: block;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 18px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 42px;
-    letter-spacing: 1px;
+    font-size: 43px;
+    letter-spacing: 2px;
 }
 
-header p {
-    font-size: 19px;
-    margin: 5px 0;
+.header-subtitle {
+    font-size: 20px;
+    margin: 8px 0 2px;
 }
+
+.header-location {
+    font-size: 16px;
+    opacity: 0.92;
+}
+
+/* NAVIGATION */
 
 nav {
-    background: #111827;
+    background: #0b1220;
     text-align: center;
-    padding: 15px 10px;
+    padding: 14px 10px;
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 nav a {
@@ -148,129 +162,309 @@ nav a {
     margin: 0 12px;
     font-weight: bold;
     display: inline-block;
-    padding: 5px;
+    padding: 6px 4px;
 }
 
 nav a:hover {
-    color: #facc15;
+    color: #d4af37;
 }
 
-section {
-    max-width: 1100px;
-    margin: auto;
-    padding: 55px 20px;
-}
-
-section h2 {
-    color: #172554;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
+/* HERO */
 
 .hero {
+    background:
+        linear-gradient(rgba(7,26,61,0.94), rgba(23,37,84,0.94));
+    color: white;
     text-align: center;
-    background: white;
-    padding: 65px 20px;
+    padding: 80px 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.hero-label {
+    display: inline-block;
+    border: 1px solid #d4af37;
+    color: #f5d76e;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 18px;
 }
 
 .hero h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 1.25;
+    margin: 0 auto 20px;
 }
 
 .hero p {
-    max-width: 850px;
-    margin: 10px auto;
+    max-width: 820px;
+    margin: 12px auto;
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .buttons {
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 .button {
     display: inline-block;
-    padding: 13px 22px;
+    padding: 14px 24px;
     margin: 7px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
-    background: #172554;
-    color: white;
+    background: #d4af37;
+    color: #111827;
+    transition: 0.2s;
 }
 
 .button:hover {
-    opacity: 0.85;
+    transform: translateY(-2px);
+    background: #f0cf59;
 }
+
+.button.secondary {
+    background: white;
+    color: #172554;
+}
+
+.button.secondary:hover {
+    background: #e5e7eb;
+}
+
+/* GENERAL SECTIONS */
+
+section {
+    max-width: 1150px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #172554;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: auto;
+    color: #64748b;
+}
+
+/* ABOUT */
 
 .about-box {
     background: white;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+    padding: 38px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(15,23,42,0.08);
+    border-top: 4px solid #d4af37;
 }
 
-.services {
-    display: flex;
-    flex-wrap: wrap;
+.about-box h3 {
+    color: #172554;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.profile-name {
+    font-size: 24px;
+    color: #172554;
+    font-weight: bold;
+}
+
+/* WHY US */
+
+.why-section {
+    background: #eef2f7;
+    max-width: none;
+}
+
+.why-inner {
+    max-width: 1150px;
+    margin: auto;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    justify-content: center;
+}
+
+.why-card {
+    background: white;
+    padding: 28px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(15,23,42,0.06);
+}
+
+.why-icon {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.why-card h3 {
+    color: #172554;
+    margin: 8px 0;
+}
+
+/* SERVICES */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
 }
 
 .card {
     background: white;
-    width: 300px;
-    padding: 25px;
+    padding: 28px 22px;
     border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-    text-align: center;
+    box-shadow: 0 4px 16px rgba(15,23,42,0.08);
+    border-bottom: 3px solid transparent;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-bottom-color: #d4af37;
+}
+
+.card-icon {
+    font-size: 32px;
 }
 
 .card h3 {
     color: #172554;
-    font-size: 21px;
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 .card p {
     font-size: 15px;
+    color: #475569;
 }
 
+/* CTA */
+
+.cta {
+    background: #172554;
+    color: white;
+    text-align: center;
+    max-width: none;
+}
+
+.cta-inner {
+    max-width: 900px;
+    margin: auto;
+}
+
+.cta h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    color: #e5e7eb;
+}
+
+/* CONTACT */
+
 .contact {
-    background: #e5e7eb;
+    background: #eef2f7;
+    max-width: none;
+}
+
+.contact-inner {
+    max-width: 850px;
+    margin: auto;
 }
 
 .contact-box {
     background: white;
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 750px;
-    margin: auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(15,23,42,0.08);
+}
+
+.contact-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
 }
 
 .contact a {
     color: #172554;
     font-weight: bold;
+    text-decoration: none;
 }
+
+.contact a:hover {
+    color: #b8941f;
+}
+
+/* FOOTER */
 
 footer {
-    background: #111827;
-    color: white;
+    background: #0b1220;
+    color: #dbeafe;
     text-align: center;
-    padding: 25px 15px;
+    padding: 30px 15px;
 }
 
-@media (max-width: 700px) {
+footer p {
+    margin: 6px 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+    .services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h2 {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .language-bar {
+        text-align: center;
+    }
 
     header {
-        padding: 35px 15px;
+        padding: 35px 15px 45px;
     }
 
     header h1 {
-        font-size: 30px;
+        font-size: 31px;
     }
 
-    header p {
-        font-size: 16px;
+    .header-subtitle {
+        font-size: 17px;
     }
 
     .logo {
@@ -278,21 +472,52 @@ footer {
         height: 120px;
     }
 
+    nav {
+        padding: 10px 5px;
+    }
+
     nav a {
-        margin: 4px 7px;
-        font-size: 14px;
+        margin: 3px 6px;
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 60px 18px;
     }
 
     .hero h2 {
-        font-size: 28px;
+        font-size: 29px;
+    }
+
+    .hero p {
+        font-size: 16px;
     }
 
     section {
-        padding: 40px 15px;
+        padding: 55px 15px;
     }
 
-    .card {
-        width: 100%;
+    .section-title h2 {
+        font-size: 27px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-box,
+    .contact-box {
+        padding: 25px 20px;
+    }
+
+    .button {
+        display: block;
+        margin: 10px auto;
+        max-width: 300px;
     }
 }
 
@@ -302,11 +527,16 @@ footer {
 
 <body>
 
+<!-- LANGUAGE -->
+
 <div class="language-bar">
     <button class="language-button" onclick="toggleLanguage()">
         नेपाली / English
     </button>
 </div>
+
+
+<!-- HEADER -->
 
 <header>
 
@@ -318,17 +548,20 @@ class="logo"
 
 <h1>SAGE LAW FIRM</h1>
 
-<p>
+<p class="header-subtitle">
 <span class="english"><strong>Advocate &amp; Notary Public</strong></span>
 <span class="nepali" style="display:none;"><strong>अधिवक्ता तथा नोटरी पब्लिक</strong></span>
 </p>
 
-<p>
-<span class="english">Professional Legal Services in Bharatpur, Chitwan, Nepal</span>
-<span class="nepali" style="display:none;">भरतपुर, चितवन, नेपालमा व्यावसायिक कानूनी सेवाहरू</span>
+<p class="header-location">
+<span class="english">Bharatpur, Chitwan, Nepal | Serving Clients Throughout Nepal</span>
+<span class="nepali" style="display:none;">भरतपुर, चितवन, नेपाल | नेपालभर सेवाग्राहीलाई सेवा</span>
 </p>
 
 </header>
+
+
+<!-- NAVIGATION -->
 
 <nav>
 
@@ -343,8 +576,13 @@ class="logo"
 </a>
 
 <a href="#services">
-<span class="english">Legal Services</span>
-<span class="nepali" style="display:none;">कानूनी सेवाहरू</span>
+<span class="english">Services</span>
+<span class="nepali" style="display:none;">सेवाहरू</span>
+</a>
+
+<a href="#why">
+<span class="english">Why Us</span>
+<span class="nepali" style="display:none;">किन हामी</span>
 </a>
 
 <a href="#contact">
@@ -354,108 +592,140 @@ class="logo"
 
 </nav>
 
+
+<!-- HERO -->
+
 <section class="hero" id="home">
 
+<div class="hero-content">
+
+<div class="hero-label">
+<span class="english">PROFESSIONAL LEGAL SERVICES</span>
+<span class="nepali" style="display:none;">व्यावसायिक कानूनी सेवा</span>
+</div>
+
 <h2>
-<span class="english">Trusted Lawyer &amp; Legal Services in Bharatpur, Chitwan</span>
-<span class="nepali" style="display:none;">भरतपुर, चितवनमा विश्वसनीय वकिल तथा कानूनी सेवाहरू</span>
+<span class="english">
+Trusted Lawyer &amp; Legal Services in Bharatpur, Chitwan
+</span>
+
+<span class="nepali" style="display:none;">
+भरतपुर, चितवनमा विश्वसनीय वकिल तथा कानूनी सेवा
+</span>
 </h2>
 
 <p class="english">
-Sage Law Firm is a professional law firm based in
-<strong>Bharatpur, Chitwan, Nepal</strong>, providing legal
-services to individuals, families, businesses and organizations
-throughout Nepal.
+Sage Law Firm provides practical, reliable and professional
+legal assistance to individuals, families, businesses and
+organizations in Bharatpur, Chitwan and throughout Nepal.
 </p>
 
 <p class="nepali" style="display:none;">
-Sage Law Firm भरतपुर, चितवन, नेपालमा रहेको व्यावसायिक कानूनी संस्था हो।
-यसले व्यक्ति, परिवार, व्यवसाय तथा संस्थाहरूलाई नेपालभर कानूनी सेवाहरू प्रदान गर्दछ।
+Sage Law Firm ले भरतपुर, चितवन तथा नेपालभर व्यक्ति, परिवार,
+व्यवसाय र संस्थाहरूलाई व्यावहारिक, भरपर्दो तथा व्यावसायिक
+कानूनी सहायता प्रदान गर्दछ।
 </p>
 
-<p class="english">
-Professional legal assistance by
-<strong>Advocate &amp; Notary Public Saroj Kafle</strong>.
-</p>
-
-<p class="nepali" style="display:none;">
-<strong>अधिवक्ता तथा नोटरी पब्लिक सरोज काफ्ले</strong> द्वारा
-व्यावसायिक कानूनी सहायता।
+<p>
+<strong>
+<span class="english">Advocate &amp; Notary Public Saroj Kafle</span>
+<span class="nepali" style="display:none;">अधिवक्ता तथा नोटरी पब्लिक सरोज काफ्ले</span>
+</strong>
 </p>
 
 <div class="buttons">
 
 <a class="button" href="tel:9855011905">
-📞 <span class="english">Call Us</span>
-<span class="nepali" style="display:none;">फोन गर्नुहोस्</span>
+📞
+<span class="english">Call Now</span>
+<span class="nepali" style="display:none;">अहिले फोन गर्नुहोस्</span>
 </a>
 
-<a class="button"
-href="https://wa.me/9779855011905"
-target="_blank"
-rel="noopener">
-💬 <span class="english">WhatsApp</span>
+<a class="button" href="https://wa.me/9779855011905"
+target="_blank" rel="noopener">
+💬
+<span class="english">WhatsApp</span>
 <span class="nepali" style="display:none;">व्हाट्सएप</span>
 </a>
+
+<a class="button secondary"
+href="https://share.google/VrKBVzGdo554Nfyq0"
+target="_blank" rel="noopener">
+📍
+<span class="english">Find Our Office</span>
+<span class="nepali" style="display:none;">कार्यालयको स्थान</span>
+</a>
+
+</div>
 
 </div>
 
 </section>
 
+
+<!-- ABOUT -->
+
 <section id="about">
+
+<div class="section-title">
 
 <h2>
 <span class="english">About Sage Law Firm</span>
 <span class="nepali" style="display:none;">Sage Law Firm को बारेमा</span>
 </h2>
 
+<p class="english">
+Professional legal assistance with a commitment to ethics,
+confidentiality and protection of legal rights.
+</p>
+
+<p class="nepali" style="display:none;">
+व्यावसायिक आचारसंहिता, गोपनीयता तथा कानूनी अधिकारको
+संरक्षणप्रति प्रतिबद्ध व्यावसायिक कानूनी सेवा।
+</p>
+
+</div>
+
 <div class="about-box">
 
 <p class="english">
 <strong>Sage Law Firm</strong> is a professional law firm
-located in Bharatpur, Chitwan, Nepal.
+based in <strong>Bharatpur, Chitwan, Nepal</strong>.
+We provide legal services to individuals, families,
+businesses and organizations.
 </p>
 
 <p class="nepali" style="display:none;">
 <strong>Sage Law Firm</strong> भरतपुर, चितवन, नेपालमा
-अवस्थित एक व्यावसायिक कानूनी संस्था हो।
+आधारित एक व्यावसायिक कानूनी संस्था हो। हामी व्यक्ति,
+परिवार, व्यवसाय तथा संस्थाहरूलाई कानूनी सेवा प्रदान गर्दछौँ।
 </p>
 
 <p class="english">
-We provide practical, reliable and client-focused legal
-services with a strong commitment to professional ethics,
-confidentiality and protection of clients' legal rights.
+Our approach is practical, client-focused and based on
+professional responsibility, confidentiality and respect
+for the legal rights of every client.
 </p>
 
 <p class="nepali" style="display:none;">
-हामी व्यावहारिक, भरपर्दो तथा सेवाग्राही केन्द्रित कानूनी सेवाहरू
-प्रदान गर्दछौँ। व्यावसायिक आचारसंहिता, गोपनीयता तथा सेवाग्राहीका
-कानूनी अधिकारको संरक्षणप्रति हाम्रो दृढ प्रतिबद्धता छ।
+हाम्रो सेवा व्यावहारिक तथा सेवाग्राही केन्द्रित छ र
+व्यावसायिक जिम्मेवारी, गोपनीयता तथा प्रत्येक सेवाग्राहीको
+कानूनी अधिकारप्रतिको सम्मानमा आधारित छ।
 </p>
 
-<p class="english">
-Our services are available in Bharatpur and Chitwan and,
-where appropriate, to clients throughout Nepal.
-</p>
-
-<p class="nepali" style="display:none;">
-हाम्रा सेवाहरू भरतपुर तथा चितवनमा उपलब्ध छन् र आवश्यकताअनुसार
-नेपालभरका सेवाग्राहीहरूलाई पनि कानूनी सेवा प्रदान गरिन्छ।
-</p>
-
-<h2>
+<h3>
 <span class="english">Advocate Profile</span>
 <span class="nepali" style="display:none;">अधिवक्ताको परिचय</span>
-</h2>
+</h3>
+
+<p class="profile-name">Saroj Kafle</p>
 
 <p class="english">
-<strong>Saroj Kafle</strong><br>
-Advocate &amp; Notary Public
+<strong>Advocate &amp; Notary Public</strong>
 </p>
 
 <p class="nepali" style="display:none;">
-<strong>Saroj Kafle</strong><br>
-अधिवक्ता तथा नोटरी पब्लिक
+<strong>अधिवक्ता तथा नोटरी पब्लिक</strong>
 </p>
 
 <p class="english">
@@ -467,33 +737,132 @@ Advocate &amp; Notary Public
 </p>
 
 <p class="english">
-Legal practice includes family law, divorce matters,
+Areas of legal practice include family law, divorce matters,
 criminal law, corporate and business law, contracts,
 property matters, company and firm registration,
 renewal services and notary services.
 </p>
 
 <p class="nepali" style="display:none;">
-कानूनी अभ्यास अन्तर्गत पारिवारिक कानून, सम्बन्धविच्छेद,
-फौजदारी कानून, कर्पोरेट तथा व्यावसायिक कानून, सम्झौता,
-सम्पत्ति सम्बन्धी विषय, कम्पनी तथा फर्म दर्ता,
-नवीकरण सेवा र नोटरी सेवाहरू पर्दछन्।
+कानूनी अभ्यासका प्रमुख क्षेत्रहरूमा पारिवारिक कानून,
+सम्बन्धविच्छेद, फौजदारी कानून, कर्पोरेट तथा व्यावसायिक कानून,
+सम्झौता, सम्पत्ति, कम्पनी तथा फर्म दर्ता, नवीकरण
+र नोटरी सेवाहरू पर्दछन्।
 </p>
 
 </div>
 
 </section>
 
+
+<!-- WHY CHOOSE US -->
+
+<section class="why-section" id="why">
+
+<div class="why-inner">
+
+<div class="section-title">
+
+<h2>
+<span class="english">Why Choose Sage Law Firm?</span>
+<span class="nepali" style="display:none;">किन Sage Law Firm?</span>
+</h2>
+
+<p class="english">
+Professional values that guide our legal service.
+</p>
+
+<p class="nepali" style="display:none;">
+हाम्रो कानूनी सेवाका आधारभूत व्यावसायिक मूल्यहरू।
+</p>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-card">
+<div class="why-icon">⚖️</div>
+<h3>
+<span class="english">Professional</span>
+<span class="nepali" style="display:none;">व्यावसायिक</span>
+</h3>
+<p>
+<span class="english">Responsible and professional legal assistance.</span>
+<span class="nepali" style="display:none;">जिम्मेवार तथा व्यावसायिक कानूनी सहायता।</span>
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">🔒</div>
+<h3>
+<span class="english">Confidential</span>
+<span class="nepali" style="display:none;">गोपनीय</span>
+</h3>
+<p>
+<span class="english">Respect for client confidentiality and privacy.</span>
+<span class="nepali" style="display:none;">सेवाग्राहीको गोपनीयता र निजताको सम्मान।</span>
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">🤝</div>
+<h3>
+<span class="english">Client Focused</span>
+<span class="nepali" style="display:none;">सेवाग्राही केन्द्रित</span>
+</h3>
+<p>
+<span class="english">Practical assistance based on each client's needs.</span>
+<span class="nepali" style="display:none;">सेवाग्राहीको आवश्यकतामा आधारित व्यावहारिक सहायता।</span>
+</p>
+</div>
+
+<div class="why-card">
+<div class="why-icon">🇳🇵</div>
+<h3>
+<span class="english">Nepal Wide</span>
+<span class="nepali" style="display:none;">नेपालभर</span>
+</h3>
+<p>
+<span class="english">Services based in Bharatpur with support throughout Nepal.</span>
+<span class="nepali" style="display:none;">भरतपुरबाट नेपालभर आवश्यक कानूनी सेवा।</span>
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
 <section id="services">
+
+<div class="section-title">
 
 <h2>
 <span class="english">Our Legal Services</span>
 <span class="nepali" style="display:none;">हाम्रा कानूनी सेवाहरू</span>
 </h2>
 
+<p class="english">
+Legal assistance across important personal, family,
+criminal, property and business matters.
+</p>
+
+<p class="nepali" style="display:none;">
+व्यक्तिगत, पारिवारिक, फौजदारी, सम्पत्ति तथा व्यावसायिक
+महत्त्वपूर्ण विषयहरूमा कानूनी सहायता।
+</p>
+
+</div>
+
 <div class="services">
 
+
 <div class="card">
+<div class="card-icon">👨‍👩‍👧</div>
 <h3>
 <span class="english">Divorce &amp; Family Law</span>
 <span class="nepali" style="display:none;">सम्बन्धविच्छेद तथा पारिवारिक कानून</span>
@@ -510,15 +879,16 @@ family law issues.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">💍</div>
 <h3>
 <span class="english">Court Marriage</span>
 <span class="nepali" style="display:none;">अदालतबाट विवाह</span>
 </h3>
 <p class="english">
 Legal guidance and assistance relating to court marriage,
-marriage registration and related legal documentation
-in Nepal.
+marriage registration and related documentation in Nepal.
 </p>
 <p class="nepali" style="display:none;">
 नेपालमा अदालतबाट विवाह, विवाह दर्ता तथा सम्बन्धित
@@ -526,14 +896,16 @@ in Nepal.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">⚖️</div>
 <h3>
 <span class="english">Criminal Law</span>
 <span class="nepali" style="display:none;">फौजदारी कानून</span>
 </h3>
 <p class="english">
-Legal advice, assistance and representation relating to
-criminal cases and criminal law matters.
+Legal advice, assistance and representation relating
+to criminal cases and criminal law matters.
 </p>
 <p class="nepali" style="display:none;">
 फौजदारी मुद्दा तथा फौजदारी कानूनसम्बन्धी विषयमा
@@ -541,14 +913,16 @@ criminal cases and criminal law matters.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">🏠</div>
 <h3>
 <span class="english">Ansha &amp; Family Property</span>
 <span class="nepali" style="display:none;">अंश तथा पारिवारिक सम्पत्ति</span>
 </h3>
 <p class="english">
 Legal assistance relating to ansha, partition,
-family property, inheritance and related property disputes.
+family property, inheritance and property disputes.
 </p>
 <p class="nepali" style="display:none;">
 अंश, बाँडफाँड, पारिवारिक सम्पत्ति, हकदाबी तथा
@@ -556,7 +930,9 @@ family property, inheritance and related property disputes.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">🏢</div>
 <h3>
 <span class="english">Corporate &amp; Business Law</span>
 <span class="nepali" style="display:none;">कर्पोरेट तथा व्यावसायिक कानून</span>
@@ -571,14 +947,16 @@ including legal documentation and corporate matters.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">📋</div>
 <h3>
 <span class="english">Company &amp; Firm Registration</span>
 <span class="nepali" style="display:none;">कम्पनी तथा फर्म दर्ता</span>
 </h3>
 <p class="english">
-Assistance relating to company registration,
-firm registration, renewal and related legal documentation.
+Assistance with company registration, firm registration,
+renewal and related legal documentation.
 </p>
 <p class="nepali" style="display:none;">
 कम्पनी दर्ता, फर्म दर्ता, नवीकरण तथा सम्बन्धित
@@ -586,31 +964,33 @@ firm registration, renewal and related legal documentation.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">📝</div>
 <h3>
 <span class="english">Contracts &amp; Agreements</span>
 <span class="nepali" style="display:none;">सम्झौता तथा करार</span>
 </h3>
 <p class="english">
-Drafting, reviewing and providing legal assistance
-for contracts, agreements, house rent agreements
-and land lease documents.
+Drafting and reviewing contracts, agreements,
+house rent agreements and land lease documents.
 </p>
 <p class="nepali" style="display:none;">
 करार, सम्झौता, घरभाडा सम्झौता तथा जग्गा लिज
-सम्बन्धी कागजात तयार, समीक्षा तथा कानूनी सहायता।
+सम्बन्धी कागजात तयार तथा समीक्षा।
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">🏡</div>
 <h3>
 <span class="english">Land &amp; Property</span>
 <span class="nepali" style="display:none;">जग्गा तथा सम्पत्ति कानून</span>
 </h3>
 <p class="english">
-Legal assistance relating to land, property,
-lease, house rent and property-related agreements
-and disputes.
+Legal assistance relating to land, property, lease,
+house rent, agreements and property-related disputes.
 </p>
 <p class="nepali" style="display:none;">
 जग्गा, सम्पत्ति, लिज, घरभाडा तथा सम्पत्तिसम्बन्धी
@@ -618,7 +998,9 @@ and disputes.
 </p>
 </div>
 
+
 <div class="card">
+<div class="card-icon">📜</div>
 <h3>
 <span class="english">Notary Public</span>
 <span class="nepali" style="display:none;">नोटरी पब्लिक सेवा</span>
@@ -637,43 +1019,97 @@ with document authentication and related legal documents.
 
 </section>
 
+
+<!-- CALL TO ACTION -->
+
+<section class="cta">
+
+<div class="cta-inner">
+
+<h2>
+<span class="english">Need Legal Assistance?</span>
+<span class="nepali" style="display:none;">कानूनी सहायता आवश्यक छ?</span>
+</h2>
+
+<p class="english">
+Contact Sage Law Firm for professional legal assistance
+in Bharatpur, Chitwan and throughout Nepal.
+</p>
+
+<p class="nepali" style="display:none;">
+भरतपुर, चितवन तथा नेपालभर व्यावसायिक कानूनी
+सहायताका लागि Sage Law Firm मा सम्पर्क गर्नुहोस्।
+</p>
+
+<div class="buttons">
+
+<a class="button" href="tel:9855011905">
+📞
+<span class="english">Call 9855011905</span>
+<span class="nepali" style="display:none;">9855011905 मा फोन गर्नुहोस्</span>
+</a>
+
+<a class="button secondary"
+href="https://wa.me/9779855011905"
+target="_blank" rel="noopener">
+💬
+<span class="english">Message on WhatsApp</span>
+<span class="nepali" style="display:none;">WhatsApp मा सन्देश पठाउनुहोस्</span>
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
 <section id="contact" class="contact">
+
+<div class="contact-inner">
+
+<div class="section-title">
 
 <h2>
 <span class="english">Contact Sage Law Firm</span>
 <span class="nepali" style="display:none;">Sage Law Firm मा सम्पर्क गर्नुहोस्</span>
 </h2>
 
+</div>
+
 <div class="contact-box">
 
-<p>
+<div class="contact-item">
 <strong>
 <span class="english">Advocate &amp; Notary Public:</span>
 <span class="nepali" style="display:none;">अधिवक्ता तथा नोटरी पब्लिक:</span>
 </strong>
 Saroj Kafle
-</p>
+</div>
 
-<p>
+<div class="contact-item">
 <strong>
 <span class="english">Phone:</span>
 <span class="nepali" style="display:none;">फोन:</span>
 </strong>
 <a href="tel:9855011905">9855011905</a>
-</p>
+</div>
 
-<p>
+<div class="contact-item">
 <strong>
 <span class="english">WhatsApp:</span>
 <span class="nepali" style="display:none;">व्हाट्सएप:</span>
 </strong>
-<a href="https://wa.me/9779855011905" target="_blank" rel="noopener">
+<a href="https://wa.me/9779855011905"
+target="_blank" rel="noopener">
 <span class="english">Contact us on WhatsApp</span>
 <span class="nepali" style="display:none;">व्हाट्सएपमा सम्पर्क गर्नुहोस्</span>
 </a>
-</p>
+</div>
 
-<p>
+<div class="contact-item">
 <strong>
 <span class="english">Email:</span>
 <span class="nepali" style="display:none;">इमेल:</span>
@@ -681,44 +1117,63 @@ Saroj Kafle
 <a href="mailto:kaphlesaroj25@gmail.com">
 kaphlesaroj25@gmail.com
 </a>
-</p>
+</div>
 
-<p>
+<div class="contact-item">
 <strong>
 <span class="english">Location:</span>
 <span class="nepali" style="display:none;">स्थान:</span>
 </strong>
-<span class="english">Bharatpur Metropolitan City, Chitwan, Nepal</span>
-<span class="nepali" style="display:none;">भरतपुर महानगरपालिका, चितवन, नेपाल</span>
-</p>
+<span class="english">
+Bharatpur Metropolitan City, Chitwan, Nepal
+</span>
+<span class="nepali" style="display:none;">
+भरतपुर महानगरपालिका, चितवन, नेपाल
+</span>
+</div>
 
-<p>
+<div class="contact-item">
 <a href="https://share.google/VrKBVzGdo554Nfyq0"
-target="_blank"
-rel="noopener">
+target="_blank" rel="noopener">
 📍
 <span class="english">View Our Location on Google Maps</span>
 <span class="nepali" style="display:none;">Google Maps मा हाम्रो स्थान हेर्नुहोस्</span>
 </a>
-</p>
+</div>
+
+</div>
 
 </div>
 
 </section>
 
+
+<!-- FOOTER -->
+
 <footer>
 
 <p>
-<span class="english">© 2026 Sage Law Firm. All Rights Reserved.</span>
-<span class="nepali" style="display:none;">© 2026 Sage Law Firm. सर्वाधिकार सुरक्षित।</span>
+<span class="english">
+© 2026 Sage Law Firm. All Rights Reserved.
+</span>
+
+<span class="nepali" style="display:none;">
+© 2026 Sage Law Firm. सर्वाधिकार सुरक्षित।
+</span>
 </p>
 
 <p>
-<span class="english">Advocate &amp; Notary Public | Lawyer in Bharatpur, Chitwan, Nepal</span>
-<span class="nepali" style="display:none;">अधिवक्ता तथा नोटरी पब्लिक | भरतपुर, चितवन, नेपालका वकिल</span>
+<span class="english">
+Advocate &amp; Notary Public | Lawyer in Bharatpur, Chitwan, Nepal
+</span>
+
+<span class="nepali" style="display:none;">
+अधिवक्ता तथा नोटरी पब्लिक | भरतपुर, चितवन, नेपालका वकिल
+</span>
 </p>
 
 </footer>
+
 
 <script>
 
